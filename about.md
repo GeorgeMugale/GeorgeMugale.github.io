@@ -11,12 +11,13 @@ I take pride in sharing knowledge across languages and platforms while continuou
 
 Outside the realm of technology, I enjoy watching **anime**, reading **manga and books**, and playing **video games**—interests that fuel my creativity and problem-solving mindset.<br>
 <br>
+<br>
 
 
 ---
 
 
-
+<br>
 <br>
 
 
@@ -44,11 +45,11 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 - Ability to troubleshoot and resolve complex technical issues
 - Methodical approach to debugging and optimization
 <br>
-
+<br>
 
 ---
 
-
+<br>
 <br>
 
 ## 💼 Experience
@@ -62,11 +63,11 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 - Provide fair, accurate evaluations and constructive feedback  
 - Support student learning through detailed guidance on technical work  
 <br>
-
+<br>
 
 ---
 
-
+<br>
 <br>
 
 ## 🎓 Education
@@ -83,11 +84,11 @@ _Banking and technology innovation program_
 *Bachelor's Pass | Graduated 2021*  
 _Matriculated with university entrance qualification_  
 <br>
-
+<br>
 
 ---
 
-
+<br>
 <br>
 
 ## 📞 Contact
@@ -96,8 +97,10 @@ _Matriculated with university entrance qualification_
 - **LinkedIn**: [George Mugale](https://www.linkedin.com/in/george-mugale-2175892b2/)  
 - **GitHub**: [GeorgeMugale](https://github.com/GeorgeMugale)  
 <br>
+<br>
 
 ---
+<br>
 <br>
 
 *Always open to new opportunities and collaborations!*
