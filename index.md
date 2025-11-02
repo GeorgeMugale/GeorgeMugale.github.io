@@ -10,20 +10,13 @@ title: Home
 
 ## 🚀 About Me
 
-I am a self-taught IT enthusiast with a solid
-foundation in cybersecurity and software
-development, complemented by expertise in
-system design and planning. My technical skill
-set spans multiple programming languages,
-with a particular focus on full-stack
-development. I take pride in sharing knowledge
-across languages and platforms while
-continuously expanding and refining my skills.
-Outside the realm of technology, I enjoy a
-variety of activities including watching anime,
-reading manga and books, and playing video
-games—interests that fuel my creativity and
-problem-solving mindset
+## 🚀 About Me
+
+I am a self-taught IT enthusiast with a solid foundation in cybersecurity and software development, complemented by expertise in system design and planning. 
+
+My technical skill set spans multiple programming languages, with a particular focus on full-stack development. I take pride in sharing knowledge across languages and platforms while continuously expanding and refining my skills.
+
+Outside the realm of technology, I enjoy a variety of activities including watching anime, reading manga and books, and playing video games—interests that fuel my creativity and problem-solving mindset.
 
 ## 💡 Skills & Technologies
 
@@ -70,18 +63,33 @@ problem-solving mindset
     <div class="project-card">
         <h3>Java Water Quality Detector</h3>
         <p>JavaFX-based image analysis system using MST and Graph Edit Distance for container classification and water quality detection.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">JavaFX</span>
+            <span class="tech-tag">Advanced Data Strctures and Algorithms</span>
+        </div>
         <a href="https://github.com/GeorgeMugale/CSC3-Mini-Project">View on GitHub</a>
     </div>
     
     <div class="project-card">
         <h3>File Iterator</h3>
         <p>A memory-safe solution for writing and traversing serialized objects in files, preventing stream corruption while maintaining single-object memory footprint during iteration.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Data Structures</span>
+            <span class="tech-tag">Java Streams</span>
+        </div>
         <a href="https://github.com/GeorgeMugale/File-Iterator">View on GitHub</a>
     </div>
     
     <div class="project-card">
         <h3>Python Chatbot</h3>
         <p>Python-based Q&A chatbot with GUI, web scraping, and Turtle graphics, built for the UJ JBS final presentation.</p>
+        <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">TKinter</span>
+            <span class="tech-tag">Web Scraping</span>
+        </div>
         <a href="https://github.com/GeorgeMugale/Python-Chatbot">View on GitHub</a>
     </div>
 </div>
