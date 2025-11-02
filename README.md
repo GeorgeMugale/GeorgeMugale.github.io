@@ -1,2 +1,2 @@
-# GeorgeMugale.github.io-
+# GeorgeMugale.github.io
 My Amazing résumé
