@@ -3,6 +3,7 @@ description: "I am a goal-driven and technically proficient individual with a st
 baseurl: ""
 url: "https://georgemugale.github.io"
 theme: minima
+theme: jekyll-theme-minimal
 
 github_username: georgemugale
 email: georgeapril202020@gmail.com
