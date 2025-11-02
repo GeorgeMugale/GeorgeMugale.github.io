@@ -1,2 +1,2 @@
-# GeorgeMugale.github.io
+# George's homepage
 My Amazing résumé
