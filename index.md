@@ -8,7 +8,6 @@ title: Home
     <p>{{ site.description }}</p>
 </section>
 
-## 🚀 About Me
 
 ## 🚀 About Me
 
