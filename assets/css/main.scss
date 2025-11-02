@@ -9,6 +9,28 @@ $text-color: #333;
 $background-color: #f8f9fa;
 $white: #ffffff;
 
+
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #3498db;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    flex-shrink: 0;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.circle-image:hover img {
+    transform: scale(1.1);
+}
+
 // Reset and base styles
 * {
     margin: 0;
