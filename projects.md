@@ -26,7 +26,7 @@ Millions of people rely on unsafe water sources, and over 50% of South Africa’
 - Designed scalable architecture for image processing pipeline
 - Optimized performance for real-time detection
 
-[**View on GitHub**](https://github.com/GeorgeMugale/CSC3-Mini-Project) | [**View Demo**](#)
+[**View on GitHub**](https://github.com/GeorgeMugale/CSC3-Mini-Project)
 <br>
 <br>
 
@@ -59,7 +59,7 @@ Overall, it delivers a reliable, lightweight, and convenient solution for handli
 - Solved stream corruption issues in file I/O
 - Optimized memory usage for large datasets
 
-[**View on GitHub**](https://github.com/GeorgeMugale/File-Iterator) | [**View Documentation**](#)
+[**View on GitHub**](https://github.com/GeorgeMugale/File-Iterator)
 
 <br>
 <br>
@@ -88,7 +88,7 @@ The chatbot features a **dictionary-based knowledge system** for quick predefine
 - Implemented web scraping with error handling
 - Created engaging visualizations with Turtle graphics
 
-[**View on GitHub**](https://github.com/GeorgeMugale/Python-Chatbot) | [**View Demo**](#)
+[**View on GitHub**](https://github.com/GeorgeMugale/Python-Chatbot)
 <br>
 <br>
 
