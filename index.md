@@ -4,16 +4,8 @@ title: Home
 ---
 
 <section class="hero">
-    <div class="hero-content">
-        <div class="circle-image">
-            <img src="assets/WhatsApp%20Image%202025-11-02%20at%2010.18.45_9579bf8f.jpg" alt="George's Profile Picture">
-        </div>
-        
-        <div class="hero-text">
-            <h1>Welcome to My Portfolio</h1>
-            <p>{{ site.description }}</p>
-        </div>
-    </div>
+    <h1>Welcome to My Portfolio</h1>
+    <p>{{ site.description }}</p>
 </section>
 
 
