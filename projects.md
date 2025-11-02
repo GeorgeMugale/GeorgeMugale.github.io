@@ -1,7 +1,6 @@
-
 ---
 layout: default
-title: Projects
+title: About
 ---
 
 # 🚀 My Projects
