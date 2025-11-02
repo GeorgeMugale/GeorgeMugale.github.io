@@ -3,16 +3,39 @@ layout: default
 title: About
 ---
 
-# About Me
+## 💡 Skills & Technologies
 
-Write about yourself here...
+### 🏗️ Software Architecture & Design
+- Design technical solutions with clean architecture principles
+- Refactor code using OOP and design patterns
+- Write clean, scalable code following SOLID principles
+- Debug and optimize complex algorithms
 
-## Education
-- Graduated with a Bachelor's pass from Empangeni High School in 2021.
-- Completed Programming & GRIT Bootcamp at Johannesburg Business School (JBS), Class of 2023.
-- Participated in the FNB App Academy program
+### 🔧 Technical Proficiency
+- Proficient in core computer science and programming concepts
+- Strong understanding of data structures and algorithms
+- Experience with system design and planning
 
-## Experience
+### 🧠 Problem Solving & Analysis
+- Strong analytical thinking and problem-solving abilities
+- Ability to troubleshoot and resolve complex technical issues
+- Methodical approach to debugging and optimization
+  
+## 🎓 Education
+
+**Johannesburg Business School (JBS)**  
+Programming & GRIT Bootcamp | Class of 2023  
+*Intensive programming bootcamp focusing on technical skills and professional development*
+
+**FNB App Academy**  
+Participant | 2023  
+*Banking and technology innovation program*
+
+**Empangeni High School**  
+Bachelor's Pass | Graduated 2021  
+*Matriculated with university entrance qualification*
+
+## 💼 Experience
 ### 🎓 Marking Assistant
 **University of Johannesburg**  
 *February 9, 2025 – Present | Johannesburg, South Africa*
