@@ -55,6 +55,8 @@ problem-solving mindset
         <h3>Soft Skills</h3>
         <ul>
             <li>Leadership</li>
+            <li>Team-oriented and collaborative mindset</li>
+            <li>Fast learner and adaptable</li>
             <li>Problem Solving</li>
             <li>Continuous Learning</li>
             <li>Innovation</li>
