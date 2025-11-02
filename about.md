@@ -14,9 +14,9 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 <br>
 
 
-## 💡 Skills & Technologies
+##💡 Skills & Technologies
 
-### 🏗️ Software Architecture & Design
+###🏗️ Software Architecture & Design
 - Design technical solutions with clean architecture principles
 - Refactor code using OOP and design patterns
 - Write clean, scalable code following SOLID principles
@@ -24,23 +24,23 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 <br>
 <br>
 
-### 🔧 Technical Proficiency
+###🔧 Technical Proficiency
 - Proficient in core computer science and programming concepts
 - Strong understanding of data structures and algorithms
 - Experience with system design and planning
 <br>
 <br>
 
-### 🧠 Problem Solving & Analysis
+###🧠 Problem Solving & Analysis
 - Strong analytical thinking and problem-solving abilities
 - Ability to troubleshoot and resolve complex technical issues
 - Methodical approach to debugging and optimization
 <br>
 <br>
 
-## 💼 Experience
+##💼 Experience
 
-### 🎓 Marking Assistant
+###🎓 Marking Assistant
 **University of Johannesburg**  
 *February 9, 2025 – Present | Johannesburg, South Africa*  
 
@@ -51,7 +51,7 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 <br>
 <br>
 
-## 🎓 Education
+##🎓 Education
 
 **Johannesburg Business School (JBS)**  
 *Programming & GRIT Bootcamp | Class of 2023*  
@@ -67,7 +67,7 @@ _Matriculated with university entrance qualification_
 <br>
 <br>
 
-## 📞 Contact
+##📞 Contact
 
 - **Email**: [georgeapril202020@gmail.com](mailto:georgeapril202020@gmail.com)  
 - **LinkedIn**: [George Mugale](https://www.linkedin.com/in/george-mugale-2175892b2/)  
