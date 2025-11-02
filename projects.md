@@ -7,7 +7,18 @@ title: Projects
 
 Here are some of the projects I've worked on that showcase my skills in software development, problem-solving, and technical innovation.
 
+<br>
+<br>
+
+
+---
+
+<br>
+<br>
+
 ## 💻 Featured Projects
+<br>
+<br>
 
 ### 🔍 Java Water Quality Detector
 **Technologies:** Java, JavaFX, Image Processing, Graph Theory
