@@ -9,7 +9,8 @@ I am a **self-taught IT enthusiast** with a solid foundation in **cybersecurity*
 
 I take pride in sharing knowledge across languages and platforms while continuously expanding and refining my skills.
 
-Outside the realm of technology, I enjoy watching **anime**, reading **manga and books**, and playing **video games**—interests that fuel my creativity and problem-solving mindset.
+Outside the realm of technology, I enjoy watching **anime**, reading **manga and books**, and playing **video games**—interests that fuel my creativity and problem-solving mindset.<br>
+<br>
 
 ## 💡 Skills & Technologies
 
@@ -18,17 +19,17 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 - Refactor code using OOP and design patterns
 - Write clean, scalable code following SOLID principles
 - Debug and optimize complex algorithms
-
+<br>
 ### 🔧 Technical Proficiency
 - Proficient in core computer science and programming concepts
 - Strong understanding of data structures and algorithms
 - Experience with system design and planning
-
+<br>
 ### 🧠 Problem Solving & Analysis
 - Strong analytical thinking and problem-solving abilities
 - Ability to troubleshoot and resolve complex technical issues
 - Methodical approach to debugging and optimization
-
+<br>
 ---
 
 ## 💼 Experience
@@ -41,7 +42,7 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 - Ensure attention to detail and adherence to marking guidelines  
 - Provide fair, accurate evaluations and constructive feedback  
 - Support student learning through detailed guidance on technical work  
-
+<br>
 ---
 
 ## 🎓 Education
@@ -49,15 +50,15 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 **Johannesburg Business School (JBS)**  
 *Programming & GRIT Bootcamp | Class of 2023*  
 _Intensive programming bootcamp focusing on technical skills and professional development_  
-
+<br>
 **FNB App Academy**  
 *Participant | 2023*  
 _Banking and technology innovation program_  
-
+<br>
 **Empangeni High School**  
 *Bachelor's Pass | Graduated 2021*  
 _Matriculated with university entrance qualification_  
-
+<br>
 ---
 
 ## 📞 Contact
