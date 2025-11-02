@@ -66,7 +66,7 @@ problem-solving mindset
 <div class="projects-grid">
     <div class="project-card">
         <h3>Java Water Quality Detector</h3>
-        <p>Millions of people rely on unsafe water sources, and over 50% of South Africa’s rural households lack reliable water access. To address the limitations of traditional testing—such as inconsistent manual observations, slow processing, and poor pollution tracking—a Java-based desktop application is developed for automated water quality detection. The system uses graph-based techniques for faster, more accurate classification and similarity detection of water samples, categorizing them (e.g., undrinkable, contaminated, dirty) and identifying contamination trends effectively.</p>
+        <p>JavaFX-based image analysis system using MST and Graph Edit Distance for container classification and water quality detection.</p>
         <a href="https://github.com/GeorgeMugale/CSC3-Mini-Project">View on GitHub</a>
     </div>
     
