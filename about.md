@@ -3,6 +3,12 @@ layout: default
 title: About
 ---
 
+# About Me
+
+I am a self-taught IT enthusiast with a solid foundation in cybersecurity and software development, complemented by expertise in system design and planning. My technical skill set spans multiple programming languages, with a particular focus on full-stack development.
+
+I take pride in sharing knowledge across languages and platforms while continuously expanding and refining my skills. Outside the realm of technology, I enjoy a variety of activities including watching anime, reading manga and books, and playing video games—interests that fuel my creativity and problem-solving mindset.
+
 ## 💡 Skills & Technologies
 
 ### 🏗️ Software Architecture & Design
@@ -20,7 +26,18 @@ title: About
 - Strong analytical thinking and problem-solving abilities
 - Ability to troubleshoot and resolve complex technical issues
 - Methodical approach to debugging and optimization
-  
+
+## 💼 Experience
+
+### 🎓 Marking Assistant
+**University of Johannesburg**  
+*February 9, 2025 – Present | Johannesburg, South Africa*
+
+- Assess practical assignments and invigilate semester tests for Computer Science 1 module
+- Ensure attention to detail and adherence to marking guidelines
+- Provide fair, accurate evaluations and constructive feedback
+- Support student learning through detailed guidance on technical work
+
 ## 🎓 Education
 
 **Johannesburg Business School (JBS)**  
@@ -35,16 +52,12 @@ Participant | 2023
 Bachelor's Pass | Graduated 2021  
 *Matriculated with university entrance qualification*
 
-## 💼 Experience
-### 🎓 Marking Assistant
-**University of Johannesburg**  
-*February 9, 2025 – Present | Johannesburg, South Africa*
+## 📞 Contact
 
-- Assess practical assignments and invigilate semester tests for Computer Science 1 module
-- Ensure attention to detail and adherence to marking guidelines
-- Provide fair, accurate evaluations and constructive feedback
-- Support student learning through detailed guidance on technical work
+- **Email**: [georgeapril202020@gmail.com](mailto:georgeapril202020@gmail.com)
+- **LinkedIn**: [George Mugale](https://www.linkedin.com/in/george-mugale-2175892b2/)
+- **GitHub**: [GeorgeMugale](https://github.com/GeorgeMugale)
 
-## Contact
-- Email: georgeapril202020@gmail.com
-- LinkedIn: [https://www.linkedin.com/in/george-mugale-2175892b2/](#)
+---
+
+*Always open to new opportunities and collaborations!*
