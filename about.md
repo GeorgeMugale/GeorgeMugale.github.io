@@ -1,36 +1,33 @@
 ---
 layout: default
 title: About
-class: about-page
 ---
 
 # About Me
 
-I am a **self-taught IT enthusiast** with a solid foundation in **cybersecurity** and **software development**, complemented by expertise in **system design and planning**.  
-My technical skill set spans multiple programming languages, with a particular focus on **full-stack development**.
+I am a **self-taught IT enthusiast** with a solid foundation in **cybersecurity** and **software development**, complemented by expertise in **system design and planning**. My technical skill set spans multiple programming languages, with a particular focus on **full-stack development**.
 
-I take pride in sharing knowledge across languages and platforms while continuously expanding and refining my skills.  
+I take pride in sharing knowledge across languages and platforms while continuously expanding and refining my skills.
+
 Outside the realm of technology, I enjoy watching **anime**, reading **manga and books**, and playing **video games**—interests that fuel my creativity and problem-solving mindset.
-
----
 
 ## 💡 Skills & Technologies
 
 ### 🏗️ Software Architecture & Design
-- Design technical solutions with clean architecture principles  
-- Refactor code using OOP and design patterns  
-- Write clean, scalable code following SOLID principles  
-- Debug and optimize complex algorithms  
+- Design technical solutions with clean architecture principles
+- Refactor code using OOP and design patterns
+- Write clean, scalable code following SOLID principles
+- Debug and optimize complex algorithms
 
 ### 🔧 Technical Proficiency
-- Proficient in core computer science and programming concepts  
-- Strong understanding of data structures and algorithms  
-- Experience with system design and planning  
+- Proficient in core computer science and programming concepts
+- Strong understanding of data structures and algorithms
+- Experience with system design and planning
 
 ### 🧠 Problem Solving & Analysis
-- Strong analytical thinking and problem-solving abilities  
-- Ability to troubleshoot and resolve complex technical issues  
-- Methodical approach to debugging and optimization  
+- Strong analytical thinking and problem-solving abilities
+- Ability to troubleshoot and resolve complex technical issues
+- Methodical approach to debugging and optimization
 
 ---
 
