@@ -46,6 +46,16 @@ body {
     height: 100%;
 }
 
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-brand {
+    margin-left:10%;
+}
+
 .nav-brand a {
     font-size: 1.5rem;
     font-weight: bold;
