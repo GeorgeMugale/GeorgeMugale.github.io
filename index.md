@@ -67,18 +67,18 @@ problem-solving mindset
     <div class="project-card">
         <h3>Java Water Quality Detector</h3>
         <p>Millions of people rely on unsafe water sources, and over 50% of South Africa’s rural households lack reliable water access. To address the limitations of traditional testing—such as inconsistent manual observations, slow processing, and poor pollution tracking—a Java-based desktop application is developed for automated water quality detection. The system uses graph-based techniques for faster, more accurate classification and similarity detection of water samples, categorizing them (e.g., undrinkable, contaminated, dirty) and identifying contamination trends effectively.</p>
-        <a href="[https://github.com/georgemugale/project1](https://github.com/GeorgeMugale/CSC3-Mini-Project)">View on GitHub</a>
+        <a href="https://github.com/GeorgeMugale/CSC3-Mini-Project">View on GitHub</a>
     </div>
     
     <div class="project-card">
-        <h3>Project Two</h3>
-        <p>Brief description of your fantastic project.</p>
-        <a href="https://github.com/georgemugale/project2">View on GitHub</a>
+        <h3>File Iterator</h3>
+        <p>A memory-safe solution for writing and traversing serialized objects in files, preventing stream corruption while maintaining single-object memory footprint during iteration.</p>
+        <a href="https://github.com/GeorgeMugale/File-Iterator">View on GitHub</a>
     </div>
     
     <div class="project-card">
-        <h3>Project Three</h3>
-        <p>Brief description of your incredible project.</p>
-        <a href="https://github.com/georgemugale/project3">View on GitHub</a>
+        <h3>Python Chatbot</h3>
+        <p>Python-based Q&A chatbot with GUI, web scraping, and Turtle graphics, built for the UJ JBS final presentation.</p>
+        <a href="https://github.com/GeorgeMugale/Python-Chatbot">View on GitHub</a>
     </div>
 </div>
