@@ -26,8 +26,15 @@ A comprehensive image analysis system designed for container classification and 
 - Optimized performance for real-time detection
 
 [**View on GitHub**](https://github.com/GeorgeMugale/CSC3-Mini-Project) | [**View Demo**](#)
+<br>
+<br>
+
 
 ---
+
+<br>
+<br>
+
 
 ### 📁 File Iterator
 **Technologies:** Java, Serialization, Memory Management, I/O Operations
@@ -47,7 +54,14 @@ A memory-safe solution for writing and traversing serialized objects in files, p
 
 [**View on GitHub**](https://github.com/GeorgeMugale/File-Iterator) | [**View Documentation**](#)
 
+<br>
+<br>
+
+
 ---
+
+<br>
+<br>
 
 ### 🤖 Python Chatbot
 **Technologies:** Python, GUI Development, Web Scraping, Turtle Graphics
@@ -66,8 +80,14 @@ An intelligent Q&A chatbot with graphical user interface, web scraping capabilit
 - Created engaging visualizations with Turtle graphics
 
 [**View on GitHub**](https://github.com/GeorgeMugale/Python-Chatbot) | [**View Demo**](#)
+<br>
+<br>
+
 
 ---
+
+<br>
+<br>
 
 ## 🛠️ Technical Skills Demonstrated
 
@@ -88,8 +108,14 @@ An intelligent Q&A chatbot with graphical user interface, web scraping capabilit
 - **Frameworks:** JavaFX, React, Node.js
 - **Tools:** Git, Docker, Web Scraping
 - **Concepts:** Algorithms, Data Structures, Design Patterns
+<br>
+<br>
+
 
 ---
+
+<br>
+<br>
 
 ## 🔄 Current & Upcoming Projects
 
@@ -98,8 +124,13 @@ I'm constantly working on new projects to expand my skills. Currently exploring:
 - **Cybersecurity** tools and practices
 - **Cloud Computing** solutions
 - **Machine Learning** applications
+<br>
+<br>
 
 ---
+
+<br>
+<br>
 
 ## 📫 Get Involved
 
