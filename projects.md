@@ -98,6 +98,36 @@ The chatbot features a **dictionary-based knowledge system** for quick predefine
 <br>
 <br>
 
+### 💬 Web QR Reaction App
+**Technologies:** React, JavaScript, HTML, CSS, QR Code API
+
+The **Web QR Reaction App** is a collaborative React-based web application developed as a practice project to explore modern front-end development concepts. The project aimed to integrate QR code generation and user interaction features while experimenting with responsive UI design and dynamic state management in React.
+
+Although incomplete, the project served as a hands-on introduction to component-based architecture, real-time data handling, and user interface composition using reusable React components.
+
+**Key Features (Planned & Implemented):**
+- Dynamic QR code generation for user inputs  
+- Interactive UI for user reactions or responses  
+- Modular React component structure for scalability  
+- Integration testing of state updates and event handling  
+- Exploration of external APIs for QR data encoding  
+
+**Technical Highlights:**
+- Practiced building functional and class-based React components  
+- Implemented state management and event-driven rendering  
+- Focused on responsive layouts and clean component styling  
+- Collaborative workflow using GitHub for version control  
+
+[**View on GitHub**](https://github.com/GeorgeMugale/Web-QR-Reaction-app)
+<br>
+<br>
+
+
+---
+
+<br>
+<br>
+
 ## 🛠️ Technical Skills Demonstrated
 
 ### Software Architecture
