@@ -15,7 +15,8 @@ I am a self-taught IT enthusiast with a solid foundation in cybersecurity and so
 
 My technical skill set spans multiple programming languages, with a particular focus on full-stack development. I take pride in sharing knowledge across languages and platforms while continuously expanding and refining my skills.
 
-Outside the realm of technology, I enjoy a variety of activities including watching anime, reading manga and books, and playing video games—interests that fuel my creativity and problem-solving mindset.
+Outside the realm of technology, I enjoy a variety of activities including watching anime, reading manga and books, and playing video games—interests that fuel my creativity and problem-solving mindset.<br>
+<br>
 
 ## 💡 Skills & Technologies
 
