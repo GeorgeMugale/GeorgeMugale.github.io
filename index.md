@@ -45,6 +45,7 @@ problem-solving mindset
         <ul>
             <li>React</li>
             <li>Node.js</li>
+            <li>PHP Composer</li>
             <li>Git</li>
             <li>Docker</li>
         </ul>
