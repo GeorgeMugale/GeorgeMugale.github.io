@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Projects
 ---
 
 # 🚀 My Projects
@@ -12,13 +12,14 @@ Here are some of the projects I've worked on that showcase my skills in software
 ### 🔍 Java Water Quality Detector
 **Technologies:** Java, JavaFX, Image Processing, Graph Theory
 
-A comprehensive image analysis system designed for container classification and water quality detection using Minimum Spanning Trees (MST) and Graph Edit Distance algorithms.
+Millions of people rely on unsafe water sources, and over 50% of South Africa’s rural households lack reliable water access. To address the limitations of traditional testing—such as inconsistent manual observations, slow processing, and poor pollution tracking—a Java-based desktop application is developed for automated water quality detection. The system uses graph-based techniques for faster, more accurate classification and similarity detection of water samples, categorizing them (e.g., undrinkable, contaminated, dirty) and identifying contamination trends effectively.
 
 **Key Features:**
-- Real-time image analysis and processing
-- MST-based container classification
-- Graph Edit Distance for pattern recognition
-- Intuitive JavaFX user interface
+- Smart Edge pruning
+- Adaptive super pixels
+- Accurate progress bar
+- Robin hood probing
+- Alpha based similarity detection
 
 **Technical Highlights:**
 - Implemented complex graph algorithms for image analysis
@@ -39,13 +40,19 @@ A comprehensive image analysis system designed for container classification and 
 ### 📁 File Iterator
 **Technologies:** Java, Serialization, Memory Management, I/O Operations
 
-A memory-safe solution for writing and traversing serialized objects in files, preventing stream corruption while maintaining single-object memory footprint during iteration.
+The **Efficient Object Serialization Handler** is a Java library designed to solve common issues with Java’s built-in serialization, such as high memory usage, stream corruption, and complex resource management.
+
+It introduces an **ObjectWriter** class that allows memory-efficient reading and writing of serialized objects, ensuring that only one object is kept in memory at a time. The library also manages stream headers correctly to prevent file corruption when writing multiple times, provides clean resource handling via the `Closeable` interface, and simplifies iteration over serialized objects.
+
+Overall, it delivers a reliable, lightweight, and convenient solution for handling large datasets and maintaining file integrity in Java object serialization.
+
 
 **Key Features:**
 - Memory-efficient object serialization
 - Stream-safe file iteration
 - Single-object memory footprint
 - Robust error handling
+- Header Management
 
 **Technical Highlights:**
 - Implemented custom serialization protocol
@@ -66,7 +73,9 @@ A memory-safe solution for writing and traversing serialized objects in files, p
 ### 🤖 Python Chatbot
 **Technologies:** Python, GUI Development, Web Scraping, Turtle Graphics
 
-An intelligent Q&A chatbot with graphical user interface, web scraping capabilities, and interactive Turtle graphics, developed for the UJ JBS final presentation.
+This project is a **Python-based chatbot** developed for the **University of Johannesburg Business School (UJ JBS)** final presentation. It functions as a **smart Q&A assistant** with an intuitive **Tkinter graphical interface**, designed to engage users interactively.
+
+The chatbot features a **dictionary-based knowledge system** for quick predefined responses and supports **hot-swapping**, enabling team members to integrate modules seamlessly. It also uses **web scraping** to answer dynamic or unknown queries in real time. Additionally, it incorporates **Turtle Graphics**, allowing users to command the bot to draw shapes and fractals—blending creativity with computational logic.
 
 **Key Features:**
 - Natural language processing for Q&A
@@ -96,12 +105,16 @@ An intelligent Q&A chatbot with graphical user interface, web scraping capabilit
 - Scalable system design
 - Memory management optimization
 - Algorithm implementation
+<br>
+<br>
 
 ### Development Practices
 - Object-Oriented Programming
 - SOLID principles application
 - Code refactoring and optimization
 - Debugging complex systems
+<br>
+<br>
 
 ### Technologies Mastered
 - **Languages:** Java, Python, JavaScript
