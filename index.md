@@ -70,6 +70,19 @@ Outside the realm of technology, I enjoy a variety of activities including watch
         </div>
         <a href="https://github.com/GeorgeMugale/CSC3-Mini-Project">View on GitHub</a>
     </div>
+
+        <div class="project-card">
+        <h3>ORM DAO Simplified</h3>
+        <p>A lightweight and flexible Data Access Object (DAO) library built for TypeScript and MySQL. It provides a structured, type-safe layer over raw SQL, offering the safety and convenience of an ORM without the heavy abstraction.</p>
+        <div class="project-tech">
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Database</span>
+            <span class="tech-tag">DAO</span>
+            <span class="tech-tag">ORM Light</span>
+        </div>
+        <a href="https://github.com/GeorgeMugale/orm-dao-simplified">View on GitHub</a>
+    </div>
     
     <div class="project-card">
         <h3>File Iterator</h3>
@@ -82,14 +95,5 @@ Outside the realm of technology, I enjoy a variety of activities including watch
         <a href="https://github.com/GeorgeMugale/File-Iterator">View on GitHub</a>
     </div>
     
-    <div class="project-card">
-        <h3>Python Chatbot</h3>
-        <p>Python-based Q&A chatbot with GUI, web scraping, and Turtle graphics, built for the UJ JBS final presentation.</p>
-        <div class="project-tech">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">TKinter</span>
-            <span class="tech-tag">Web Scraping</span>
-        </div>
-        <a href="https://github.com/GeorgeMugale/Python-Chatbot">View on GitHub</a>
-    </div>
+
 </div>
