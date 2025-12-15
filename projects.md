@@ -16,6 +16,71 @@ Here are some of the projects I've worked on that showcase my skills in software
 <br>
 <br>
 
+## 📦 Open-Source & Developer Tools
+
+<br>
+<br>
+
+### 🧩 ORM-DAO-Simplified (NPM Package)
+
+**Technologies:** TypeScript, Node.js, MySQL, DAO Pattern
+
+**ORM-DAO-Simplified** is a lightweight, type-safe Data Access Object (DAO) library designed as a practical alternative to heavyweight ORMs. It gives developers full control over SQL while reducing boilerplate and enforcing clean separation between business logic and database access.
+
+The library emphasizes **performance, transparency, and maintainability**, making it well-suited for production systems where predictable queries and fine-grained control are required.
+
+**Key Features:**
+
+* Type-safe DAO abstractions using TypeScript generics
+* Reusable CRUD operations with parameterized queries
+* Transaction support and structured error handling
+* Minimal overhead compared to traditional ORMs
+
+**Technical Highlights:**
+
+* Designed repository-style architecture for clean data access
+* Focused on explicit SQL execution for performance and clarity
+* Published and maintained as a reusable NPM package
+
+[**View on GitHub**](https://github.com/GeorgeMugale/orm-dao-simplified)
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+### 🌐 Express HTTP Status Handler (NPM Package)
+
+**Technologies:** Node.js, Express.js, JavaScript, REST APIs
+
+**Express HTTP Status Handler** is a lightweight utility that standardizes HTTP responses in Express applications. It simplifies API development by reducing repetitive response code and enforcing consistent status codes and messages across endpoints.
+
+The package improves **readability, maintainability, and error handling** in RESTful APIs.
+
+**Key Features:**
+
+* Centralized HTTP status codes and response messages
+* Simplified success and error response handling
+* Reduced boilerplate in Express controllers
+* Easy integration into existing Express projects
+
+**Technical Highlights:**
+
+* Designed for clean API response abstraction
+* Improved consistency across REST endpoints
+* Published and documented as an NPM package
+
+[**View on GitHub**](https://github.com/GeorgeMugale/express-http-status-handler)
+
+<br>
+<br>
+
+<br>
+<br>
+
 ## 💻 Featured Projects
 <br>
 <br>
