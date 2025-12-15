@@ -72,9 +72,17 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 
 ## 🎓 Education
 
+*University of Johannesburg**  
+*Graduated with distinction | Class of 2025*  
+_Software Engineering, problem solving & data strctures and algorithms_  
+<br>
 **Johannesburg Business School (JBS)**  
 *Programming & GRIT Bootcamp | Class of 2023*  
 _Intensive programming bootcamp focusing on technical skills and professional development_  
+<br>
+**Build an AI Agent**  
+*IBM Skillsbuild | 2025*  
+_Building an AI agent, discovering how AI agents work & exploring different agent types_  
 <br>
 **FNB App Academy**  
 *Participant | 2023*  
