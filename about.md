@@ -72,7 +72,7 @@ Outside the realm of technology, I enjoy watching **anime**, reading **manga and
 
 ## 🎓 Education
 
-*University of Johannesburg**  
+**University of Johannesburg**  
 *Graduated with distinction | Class of 2025*  
 _Software Engineering, problem solving & data strctures and algorithms_  
 <br>
