@@ -9,7 +9,6 @@ $text-color: #333;
 $background-color: #f8f9fa;
 $white: #ffffff;
 
-
 // Reset and base styles
 * {
     margin: 0;
@@ -25,8 +24,6 @@ body {
 }
 
 // Header styles
-
-/* Navbar Styles */
 .site-header {
     background: var(--white);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -111,7 +108,6 @@ body {
     width: 80%;
 }
 
-/* Active link style */
 .nav-links a[aria-current="page"] {
     color: var(--secondary-color);
     font-weight: 600;
@@ -130,6 +126,7 @@ body {
     background: var(--primary-color);
     transition: all 0.3s ease;
 }
+
 .circle-image {
     width: 70px;
     height: 70px;
@@ -151,40 +148,7 @@ body {
     transform: scale(1.1);
 }
 
-/* Project Tech Tags */
-.project-tech {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.tech-tag {
-    background: #e3f2fd;
-    color: #1976d2;
-    padding: 0.3rem 0.8rem;
-    border-radius: 15px;
-    font-size: 0.8rem;
-    font-weight: 500;
-}
-
-.project-link {
-    display: inline-block;
-    padding: 0.7rem 1.5rem;
-    background: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-}
-
-.project-link:hover {
-    background: #2980b9;
-    transform: translateY(-2px);
-}
-
+// Main content
 .main-content {
     margin-top: 80px;
     min-height: calc(100vh - 200px);
@@ -194,22 +158,213 @@ body {
     margin-right: auto;
 }
 
+// Enhanced Markdown Content Styling
+.main-content {
+    
+    // Main page heading
+    > h1 {
+        font-size: 2.5rem;
+        color: $primary-color;
+        margin-bottom: 2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 3px solid $secondary-color;
+        
+        &::before {
+            content: attr(data-emoji);
+            margin-right: 0.5rem;
+        }
+    }
+    
+    // Section headings (h2)
+    > h2 {
+        font-size: 2rem;
+        color: $primary-color;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        padding-left: 1rem;
+        border-left: 4px solid $secondary-color;
+        background: linear-gradient(90deg, rgba(52, 152, 219, 0.1) 0%, transparent 100%);
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    
+    // Project cards (h3)
+    > h3 {
+        font-size: 1.8rem;
+        color: $primary-color;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid lighten($secondary-color, 20%);
+    }
+    
+    // Paragraphs
+    > p {
+        margin-bottom: 1.5rem;
+        line-height: 1.8;
+        font-size: 1.05rem;
+        
+        strong {
+            color: $primary-color;
+            font-weight: 600;
+        }
+    }
+    
+    // Lists
+    > ul, > ol {
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        
+        li {
+            margin-bottom: 0.8rem;
+            line-height: 1.7;
+            
+            &::marker {
+                color: $secondary-color;
+                font-weight: bold;
+            }
+        }
+    }
+    
+    // Horizontal rules
+    > hr {
+        border: 0;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, $secondary-color, transparent);
+        margin: 3rem 0;
+    }
+    
+    // Links
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            color: darken($secondary-color, 10%);
+            text-decoration: underline;
+        }
+    }
+    
+    // Blockquotes
+    > blockquote {
+        border-left: 4px solid $secondary-color;
+        padding: 1rem 1.5rem;
+        margin: 2rem 0;
+        background: lighten($secondary-color, 45%);
+        border-radius: 0 5px 5px 0;
+        font-style: italic;
+        color: darken($text-color, 10%);
+    }
+    
+    // Code blocks
+    > pre {
+        background: $primary-color;
+        color: $white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 2rem 0;
+        
+        code {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+    }
+    
+    // Inline code
+    > p code, > li code {
+        background: lighten($primary-color, 65%);
+        color: $primary-color;
+        padding: 0.2rem 0.5rem;
+        border-radius: 3px;
+        font-family: 'Courier New', monospace;
+        font-size: 0.9em;
+    }
+}
+
+// Special styling for projects with specific structure
+.main-content {
+    // Projects page specific styling
+    > h3 + p strong {
+        display: inline-block;
+        background: lighten($secondary-color, 40%);
+        padding: 0.3rem 0.8rem;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+    // Create card-like appearance for project sections
+    > h3 {
+        background: $white;
+        padding: 1.5rem;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        border-left: 4px solid $secondary-color;
+        margin-bottom: 0;
+    }
+    
+    > h3 + p,
+    > h3 + p + p,
+    > h3 + p + p + p,
+    > h3 + p + p + p + p,
+    > h3 + p + p + p + p + ul,
+    > h3 + p + p + p + p + ul + p {
+        background: $white;
+        padding: 0 1.5rem;
+        margin-top: 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    // Last element in project card
+    > h3 + p + p + p + p + ul + p + p {
+        padding-bottom: 1.5rem;
+        border-radius: 0 0 8px 8px;
+        margin-bottom: 2rem;
+    }
+}
+
+// Project features list styling
+.main-content > p + p + p + p + ul {
+    list-style: none;
+    
+    li {
+        padding-left: 2rem;
+        position: relative;
+        
+        &::before {
+            content: "✓";
+            color: #27ae60;
+            position: absolute;
+            left: 0.5rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+// About page specific styles
 .about-page .main-content {
-    text-align: center;
-}
-
-.about-page ul {
-    display: inline-block;
     text-align: left;
+    
+    > h1 {
+        text-align: center;
+    }
+    
+    > h2 {
+        text-align: left;
+    }
+    
+    ul {
+        display: block;
+        text-align: left;
+    }
 }
 
-.about-page .skills-grid,
-.about-page .experience-grid {
-    text-align: center;
-}
-
-
-
+// Hero section
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -243,6 +398,12 @@ body {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
 }
 
 // Project cards
@@ -264,6 +425,53 @@ body {
         transform: translateY(-5px);
         box-shadow: 0 8px 15px rgba(0,0,0,0.2);
     }
+}
+
+// Tech tags
+.project-tech {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+// Project links
+.project-link {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.project-link:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.project-link.secondary {
+    background: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+.project-link.secondary:hover {
+    background: #3498db;
+    color: white;
 }
 
 // Footer styles
@@ -310,106 +518,22 @@ body {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* Projects Page Styles */
-.project-item {
-    background: white;
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    border-left: 4px solid #3498db;
-}
-
-.project-item h3 {
-    color: #2c3e50;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
-
-.project-tech {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.tech-tag {
-    background: #e3f2fd;
-    color: #1976d6;
-    padding: 0.3rem 0.8rem;
-    border-radius: 15px;
-    font-size: 0.8rem;
-    font-weight: 500;
-}
-
-.project-features {
-    margin: 1.5rem 0;
-}
-
-.project-features ul {
-    list-style: none;
-    padding: 0;
-}
-
-.project-features li {
-    padding: 0.3rem 0;
-    padding-left: 1.5rem;
-    position: relative;
-}
-
-.project-features li:before {
-    content: "✓";
-    color: #27ae60;
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-}
-
-.project-links {
-    margin-top: 1.5rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.project-link {
-    padding: 0.7rem 1.5rem;
-    background: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.project-link:hover {
-    background: #2980b9;
-    transform: translateY(-2px);
-}
-
-.project-link.secondary {
-    background: transparent;
-    color: #3498db;
-    border: 2px solid #3498db;
-}
-
-.project-link.secondary:hover {
-    background: #3498db;
-    color: white;
-}
-
-/* Separator style */
-hr {
-    border: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, #3498db, transparent);
-    margin: 3rem 0;
-}
-
 // Responsive design
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .nav-toggle {
+        display: flex;
     }
     
     .hero h1 {
@@ -419,9 +543,39 @@ hr {
     .main-content {
         padding: 1rem;
         margin-top: 60px;
+        
+        > h1 {
+            font-size: 2rem;
+        }
+        
+        > h2 {
+            font-size: 1.5rem;
+        }
+        
+        > h3 {
+            font-size: 1.3rem;
+        }
     }
     
     .navbar {
         padding: 0.5rem 1rem;
+    }
+    
+    .skills-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+// Print styles
+@media print {
+    .site-header,
+    .site-footer,
+    .nav-toggle {
+        display: none;
+    }
+    
+    .main-content {
+        margin-top: 0;
     }
 }
