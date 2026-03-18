@@ -1,0 +1,190 @@
+---
+import { GradientText, Section } from 'astro-boilerplate-components';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { CTA } from '@/partials/CTA';
+
+
+const title = `About Me - ${AppConfig.site_name}`;
+const description = 'Learn more about my background, experience, and technical skills.';
+---
+
+<Base head={{ title, description }}>
+  <Section>
+    <div class="mx-auto max-w-4xl text-center py-12">
+      <h1 class="mb-6 text-4xl font-bold text-white md:text-6xl tracking-tight">
+        About <GradientText>Me</GradientText>
+      </h1>
+
+      <p class="text-lg text-slate-400 leading-relaxed font-light">
+        I am a <span class="font-semibold text-cyan-400">Full-Stack Software Developer</span> 
+        with a BSc in Computer Science (Distinction), passionate about building 
+        scalable, secure, and high-performance applications. My work blends 
+        <span class="text-white">software engineering</span>, 
+        <span class="text-white">cybersecurity</span>, and 
+        <span class="text-white">cloud infrastructure</span> to deliver 
+        impactful solutions in modern development environments.
+      </p>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="grid gap-8 md:grid-cols-2">
+
+      <div class="group rounded-2xl border border-slate-700/50 bg-slate-800/40 p-8 backdrop-blur-sm transition-all duration-300 hover:border-cyan-500/30 hover:bg-slate-800/60 hover:shadow-[0_0_30px_rgba(34,211,238,0.1)]">
+        <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-cyan-900/30 text-2xl border border-cyan-500/20 text-cyan-400">
+          🚀
+        </div>
+        <h2 class="mb-4 text-2xl font-bold text-white">Who I Am</h2>
+        <p class="text-slate-400 leading-relaxed font-light">
+          I am a self-taught IT enthusiast with strong foundations in full-stack 
+          development, system design, and cybersecurity. My journey is driven by 
+          curiosity, discipline, and a commitment to continuous improvement.
+        </p>
+        <p class="mt-4 text-slate-400 leading-relaxed font-light">
+          I enjoy solving real-world problems through clean, scalable code and 
+          constantly refining my technical and architectural thinking.
+        </p>
+      </div>
+
+      <div class="group rounded-2xl border border-slate-700/50 bg-slate-800/40 p-8 backdrop-blur-sm transition-all duration-300 hover:border-cyan-500/30 hover:bg-slate-800/60 hover:shadow-[0_0_30px_rgba(34,211,238,0.1)]">
+        <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-cyan-900/30 text-2xl border border-cyan-500/20 text-cyan-400">
+          💡
+        </div>
+        <h2 class="mb-4 text-2xl font-bold text-white">What Drives Me</h2>
+        <p class="text-slate-400 leading-relaxed font-light">
+          I believe technology should solve meaningful problems. Whether designing 
+          APIs, optimizing performance, or architecting systems, I approach each 
+          challenge with a problem-solving mindset and a relentless attention to detail.
+        </p>
+      </div>
+
+    </div>
+  </Section>
+
+  <Section>
+    <div class="rounded-3xl border border-slate-700/50 bg-gradient-to-b from-slate-800/40 to-slate-900/40 p-10 backdrop-blur-sm">
+      <h2 class="mb-10 text-center text-3xl font-bold text-white">
+        Professional <GradientText>Focus</GradientText>
+      </h2>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        
+        <div class="relative pl-6 border-l-2 border-cyan-500/30 transition-colors hover:border-cyan-400">
+          <h3 class="mb-4 text-xl font-bold text-white">Software Development</h3>
+          <ul class="space-y-3 text-slate-400 font-light">
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Full-stack applications</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> RESTful API design</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Database optimization</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Scalable architectures</li>
+          </ul>
+        </div>
+
+        <div class="relative pl-6 border-l-2 border-cyan-500/30 transition-colors hover:border-cyan-400">
+          <h3 class="mb-4 text-xl font-bold text-white">Cybersecurity</h3>
+          <ul class="space-y-3 text-slate-400 font-light">
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Secure coding practices</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> RBAC & Auth systems</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Vulnerability assessment</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Network security</li>
+          </ul>
+        </div>
+
+        <div class="relative pl-6 border-l-2 border-cyan-500/30 transition-colors hover:border-cyan-400">
+          <h3 class="mb-4 text-xl font-bold text-white">System Design</h3>
+          <ul class="space-y-3 text-slate-400 font-light">
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Microservices architecture</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Performance optimization</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Technical documentation</li>
+            <li class="flex items-center gap-2"><span class="text-cyan-500">▹</span> Cloud scaling</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="grid gap-8 md:grid-cols-2">
+
+      <div class="rounded-2xl border border-slate-700/50 bg-slate-800/40 p-8 backdrop-blur-sm">
+        <h2 class="mb-8 text-2xl font-bold text-white flex items-center gap-3">
+          <span class="text-cyan-400">🛠️</span> Technical Skills
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">Languages</h3>
+            <div class="flex flex-wrap gap-2">
+              {['TypeScript', 'JavaScript', 'Python', 'Java', 'C#', 'PHP'].map((skill) => (
+                <span class="rounded-md border border-slate-700 bg-slate-800/80 px-3 py-1 text-sm text-slate-300 shadow-sm">{skill}</span>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 class="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">Frontend</h3>
+            <div class="flex flex-wrap gap-2">
+              {['React', 'HTML5', 'CSS3', 'Flutter', 'JavaFX'].map((skill) => (
+                <span class="rounded-md border border-cyan-900/50 bg-cyan-900/20 px-3 py-1 text-sm text-cyan-100 shadow-sm">{skill}</span>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 class="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">Backend</h3>
+            <div class="flex flex-wrap gap-2">
+              {['Node.js', 'Express', 'FastAPI', 'Django', 'ASP.NET', 'Laravel'].map((skill) => (
+                <span class="rounded-md border border-indigo-900/50 bg-indigo-900/20 px-3 py-1 text-sm text-indigo-100 shadow-sm">{skill}</span>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 class="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500">Databases & DevOps</h3>
+            <div class="flex flex-wrap gap-2">
+              {['PostgreSQL', 'MySQL', 'MongoDB', 'AWS', 'Docker', 'Terraform', 'Linux'].map((skill) => (
+                <span class="rounded-md border border-slate-700 bg-slate-800/80 px-3 py-1 text-sm text-slate-300 shadow-sm">{skill}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-slate-700/50 bg-slate-800/40 p-8 backdrop-blur-sm">
+      <h2 class="mb-8 text-2xl font-bold text-white flex items-center gap-3">
+        <span class="text-cyan-400">💼</span> Experience
+      </h2>
+
+      <div class="space-y-8 relative before:absolute before:left-[7px] before:top-2 before:h-[calc(100%-20px)] before:w-0.5 before:bg-gradient-to-b before:from-cyan-500 before:via-slate-700 before:to-transparent">
+        
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-1.5 h-4 w-4 rounded-full border-2 border-slate-900 bg-cyan-400 z-10"></div>
+          <h3 class="text-xl font-bold text-white">Full-Stack Developer Intern</h3>
+          <p class="mb-3 text-sm font-medium text-cyan-400">Lipila Technologies <span class="text-slate-500">| 2026 – Present</span></p>
+          <ul class="space-y-2 text-sm text-slate-400 font-light">
+            <li>• Built scalable apps with React, Django & PostgreSQL</li>
+            <li>• Designed secure APIs with RBAC implementations</li>
+            <li>• Engineered CI/CD pipelines via GitHub Actions</li>
+            <li>• Containerized microservices using Docker</li>
+          </ul>
+        </div>
+
+        <div class="relative pl-8">
+          <div class="absolute left-0 top-1.5 h-4 w-4 rounded-full border-2 border-slate-900 bg-slate-600 z-10"></div>
+          <h3 class="text-xl font-bold text-white">Marking Assistant</h3>
+          <p class="mb-3 text-sm font-medium text-cyan-400">University of Johannesburg <span class="text-slate-500">| 2025</span></p>
+          <ul class="space-y-2 text-sm text-slate-400 font-light">
+            <li>• Evaluated advanced coding assignments</li>
+            <li>• Mentored students on algorithmic problem-solving</li>
+            <li>• Maintained strict academic integrity standards</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </Section>
+<CTA />
+</Base>

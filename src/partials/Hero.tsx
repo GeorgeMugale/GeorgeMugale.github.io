@@ -28,8 +28,7 @@ const Hero = () => (
     <Section>
       <div className="relative z-20 w-full py-20 md:w-2/3 lg:w-[55%]">
         <h1 className="mb-6 text-4xl font-bold leading-tight text-white md:text-6xl">
-          Hello World! I'm <br />
-          <GradientText>George</GradientText> 👋
+          Hello World! <br /> I'm <GradientText>George</GradientText>
         </h1>
 
         <p className="mb-10 text-lg font-light leading-relaxed text-gray-300 md:text-xl">
@@ -49,7 +48,7 @@ const Hero = () => (
           high-performance solutions that solve complex{' '}
           <a
             className="text-cyan-400 transition-colors hover:text-cyan-300 hover:underline"
-            href="/projects"
+            href="/posts"
           >
             system design
           </a>{' '}
@@ -84,6 +83,26 @@ const Hero = () => (
             rel="noopener noreferrer"
           >
             <HeroSocial src="/assets/images/gmail-icon.png" alt="Email icon" />
+          </a>
+          <a
+            href="/assets/docs/George-CV.pdf"
+            download="George_Mugale_CV.pdf"
+            className="flex items-center gap-2 rounded-lg bg-cyan-500 px-7 py-3 font-bold text-slate-900 transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:shadow-[0_10px_20px_rgba(34,211,238,0.3)]"
+          >
+            <svg
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+            Download CV
           </a>
         </div>
       </div>

@@ -94,8 +94,9 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="/posts/">Projects</NavMenuItem>
         <NavMenuItem href="/">Home</NavMenuItem>
+        <NavMenuItem href="/posts/">Projects</NavMenuItem>
+        <NavMenuItem href="/about/">About</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
